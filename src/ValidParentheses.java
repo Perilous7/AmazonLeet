@@ -2,7 +2,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 //https://leetcode.com/problems/valid-parentheses/
-public class Valid_Parentheses {
+public class ValidParentheses {
     public static boolean isValid(String s){
         Deque<Character> deque = new LinkedList<>();
         for(char c:s.toCharArray()){

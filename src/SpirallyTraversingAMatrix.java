@@ -1,5 +1,5 @@
 //link: https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0
-public class Spirally_traversing_a_matrix {
+public class SpirallyTraversingAMatrix {
     public static void display(int row, int col, int[][] arr){
         int top=0, bot = row-1, left =0,right = col-1, dir=0;
         while(top<=bot&&left<=right){

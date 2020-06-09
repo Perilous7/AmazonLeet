@@ -10,7 +10,7 @@ import java.util.*;
 //  ["bat"]
 //]
 //https://leetcode.com/problems/group-anagrams/
-public class Group_Anagrams {
+public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs.length == 0) return new ArrayList();
         Map<String,List<String>> map = new HashMap<>();
@@ -29,7 +29,7 @@ public class Group_Anagrams {
 
     public static void main(String[] args) {
         String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        Group_Anagrams anagrams = new Group_Anagrams();
+        GroupAnagrams anagrams = new GroupAnagrams();
         System.out.println(anagrams.groupAnagrams(input));
     }
 }
